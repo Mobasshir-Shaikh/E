@@ -1,0 +1,133 @@
+PROJECT SYNOPSIS
+
+PROJECT TITLE PhishGuard AI: AI-Based Phishing URL Detection and
+Security Analysis System
+
+1.  INTRODUCTION PhishGuard AI is a web-based cybersecurity application
+    developed to analyse website URLs and identify potentially
+    suspicious or phishing websites. Phishing websites are created by
+    attackers to steal sensitive information such as usernames,
+    passwords, banking details and personal information.
+
+The main purpose of this project is to provide users with multiple
+security checks and AI-based analysis through a single platform. It
+helps users understand the possible security risks associated with a
+website URL.
+
+2.  GOAL AND OBJECTIVES The main goal of PhishGuard AI is to make
+    website security analysis easier, faster and more understandable for
+    users.
+
+Objectives: - Validate website URLs before performing security checks. -
+Analyse IP address, HTTPS, SSL, DNS and WHOIS information. - Check URL
+reputation using VirusTotal and Google Safe Browsing. - Generate
+AI-based security summaries using Gemini AI. - Calculate website risk
+scores and confidence levels. - Store previous scan records in a
+database. - Provide a security dashboard and downloadable PDF reports.
+
+3.  TECHNOLOGIES USED
+
+Frontend Technologies: - HTML5 – To create the structure of web pages. -
+CSS3 – To design and style the user interface. - JavaScript – To provide
+interactive functionality. - Chart.js – To display dashboard statistics
+and charts.
+
+Backend Technologies: - Python – Main programming language. - Flask –
+Python web framework used to handle routes and backend operations. -
+SQLite – Database used to store scan history and related information. -
+Jinja2 – Template rendering through Flask.
+
+Libraries and External Services: - Requests – For making HTTP requests
+to external services. - Validators – For URL validation. - Python-WHOIS
+– For retrieving domain registration information. - dnspython – For DNS
+lookup. - ReportLab – For generating PDF security reports. - Google
+Gemini AI – For AI-based security summaries. - VirusTotal API – For
+checking URL reputation. - Google Safe Browsing API – For checking known
+unsafe URLs.
+
+4.  HOW IS MY PROJECT DIFFERENT FROM EXISTING WEBSITES? Several phishing
+    detection platforms already exist. PhishGuard AI does not claim to
+    be the first phishing detection system. Its main advantage is
+    combining different security-analysis features in one web
+    application.
+
+-   Combines technical URL analysis and external reputation checks.
+-   Uses Gemini AI to explain security findings in understandable
+    language.
+-   Provides risk scores and confidence levels.
+-   Maintains scan history and displays dashboard statistics.
+-   Generates downloadable PDF security reports.
+-   Presents multiple security findings through a single interface.
+
+5.  WHY SHOULD USERS USE THIS WEBSITE?
+
+-   Users can perform multiple URL security checks from one platform.
+-   Technical security information is presented in an organised format.
+-   AI-generated summaries help users understand possible risks.
+-   Previous scan results can be viewed through scan history.
+-   PDF reports can be downloaded for future reference.
+-   The application is accessible through a web browser.
+
+6.  ADVANTAGES
+
+7.  Simple and user-friendly interface.
+
+8.  Multiple security checks in one application.
+
+9.  Integration with external security services.
+
+10. AI-based security explanations.
+
+11. Dashboard and scan history.
+
+12. Downloadable PDF reports.
+
+13. Useful for cybersecurity awareness and education.
+
+14. LIMITATIONS
+
+15. The system cannot guarantee 100% phishing detection.
+
+16. External APIs may have usage limits or require API keys.
+
+17. Newly created phishing websites may not be detected.
+
+18. Internet connectivity is required for external security checks.
+
+19. AI-generated results may sometimes be inaccurate.
+
+20. A low-risk result does not guarantee that a website is completely
+    safe.
+
+21. FUTURE SCOPE
+
+-   Develop a browser extension for real-time URL checking.
+-   Add machine-learning-based phishing detection.
+-   Introduce email phishing detection.
+-   Add QR-code URL scanning.
+-   Improve detection of newly created phishing websites.
+-   Add user authentication and notification features.
+-   Provide multilingual AI-generated security explanations.
+-   Develop additional mobile-friendly features.
+
+9.  CONCLUSION PhishGuard AI is designed to provide an easy-to-use
+    platform for preliminary website security analysis. By combining
+    multiple security checks, external reputation services, Gemini AI,
+    scan history, dashboard statistics and PDF report generation, it
+    helps users understand potential phishing threats and improve their
+    cybersecurity awareness.
+
+PRACTICAL REVIEW – QUICK TECHNOLOGY SUMMARY - Frontend: HTML, CSS,
+JavaScript and Chart.js. - Backend: Python and Flask. - Database:
+SQLite. - AI: Google Gemini AI. - Security APIs: VirusTotal and Google
+Safe Browsing. - Libraries: Requests, Validators, Python-WHOIS,
+dnspython and ReportLab.
+
+IMPORTANT NOTE Before submitting the synopsis, verify that every listed
+technology and library is actually used in the project source code and
+requirements file. Mention Bootstrap only if it is implemented in the
+actual project.
+
+The system is intended for preliminary security analysis. It does not
+guarantee that every phishing website will be detected or that every
+low-risk website is safe.
